@@ -1,0 +1,1 @@
+import{_ as o}from"./BuJ3zzqD.js";import{f as t,o as r,c as n,b as a}from"./Ccxhh9Gi.js";import"./1EGLW2d6.js";import"./IJ6yDX1u.js";import"./BrPv2Tz_.js";const d=t({__name:"tech",setup(c){return(p,m)=>{const e=o;return r(),n("div",null,[a(e)])}}});export{d as default};
