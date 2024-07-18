@@ -1,1 +1,0 @@
-import{_ as e}from"./CBsd-Blz.js";import{f as t,o as r,c as n,b as a}from"./DsFX3pne.js";import"./Bai1Wapp.js";import"./CGUv9SEi.js";import"./C0-qR5qq.js";const u=t({__name:"stuff",setup(p){return(s,c)=>{const o=e;return r(),n("div",null,[a(o)])}}});export{u as default};

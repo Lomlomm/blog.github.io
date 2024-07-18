@@ -1,0 +1,1 @@
+import{_ as o}from"./BoZW6nRp.js";import{f as t,o as n,c as r,b as a}from"./QwbOv2_u.js";import"./EFfmbYT8.js";import"./CMThuUFF.js";import"./Dk-96kVr.js";const l=t({__name:"index",setup(p){return(c,m)=>{const e=o;return n(),r("div",null,[a(e)])}}});export{l as default};
