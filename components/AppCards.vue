@@ -45,7 +45,7 @@
       color: rgb(165, 51, 218);
   }
   .card-body{
-    height: 200px;
+    padding: 30px;
   }
   .card-title{
     color:rgb(87, 87, 87)

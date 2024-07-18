@@ -16,7 +16,7 @@
         <section class="mb-4 footer">
           <!-- Facebook -->
            
-            <MDBBtn
+            <!-- <MDBBtn
               tag="a"
               outline="light"
               href="#!"
@@ -26,17 +26,17 @@
               <Icon name="grommet-icons:facebook" />
             </MDBBtn>
             
+          -->
           
-          <!-- Instagram -->
           <MDBBtn
             tag="a"
             outline="light"
-            href="#!"
+            href="https://lomlomm.github.io/Portfolio/"
             floating
             class="m-1 social-buttons"
           >
-            <Icon name="grommet-icons:instagram"/>
-          </MDBBtn>
+            <Icon name="fa6-regular:folder-closed"/>
+          </MDBBtn> 
           <!-- Linkedin -->
           <MDBBtn
             tag="a"
