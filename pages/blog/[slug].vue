@@ -26,7 +26,7 @@
 
 <style>
   .content{
-    margin: 10px 300px;
+    margin: 10px 600px;
     font-size: 20px;
   }
   a{
