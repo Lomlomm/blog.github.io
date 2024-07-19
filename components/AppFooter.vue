@@ -8,12 +8,12 @@
     MDBIcon
   } from 'mdb-vue-ui-kit';
 </script>
-<template>
+<template class="wrapper">
     <MDBFooter bg="dark" :text="['center', 'white']" class="footer">
       <!-- Grid container -->
       <MDBContainer class="p-4 pb-0">
         <!-- Section: Social media -->
-        <section class="mb-4 footer">
+        <section class="mb-1 footer">
           <!-- Facebook -->
            
             <!-- <MDBBtn
@@ -61,7 +61,7 @@
 
         </section>
         <div
-          class="text-center p-3 w-100"
+          class="text-center p-1 w-100"
           style="background-color: transparent"
         >
         Made with 
@@ -71,6 +71,7 @@
           >Nessa</a
         >
       </div>
+      <a href="https://www.buymeacoffee.com/lomlomm"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=lomlomm&button_colour=493737&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00" /></a>
       </MDBContainer>
       <!-- Grid container -->
       <!-- Copyright -->
@@ -87,6 +88,7 @@
 }
 .footer{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }

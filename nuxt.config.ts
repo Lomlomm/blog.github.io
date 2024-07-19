@@ -12,15 +12,12 @@ export default defineNuxtConfig({
   build: {
     transpile: ["mdb-vue-ui-kit"],
   },
-  icon: {
-    size: '24px', // default <Icon> size applied
-    class: 'icon', // default <Icon> class applied
-    mode: 'css', // default <Icon> mode applied
-    aliases: {
-      'nuxt': 'logos:nuxt-icon',
-    }
-  }, 
   content: {
   },
+  app: {
+    head: {
+        link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
+    }
+},
   
 })
