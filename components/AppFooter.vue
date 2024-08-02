@@ -51,7 +51,7 @@
           <img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=☕&slug=lomlomm&button_colour=493737&font_colour=ffffff&font_family=Comic&outline_colour=ffffff&coffee_colour=FFDD00" />
         </a>
 
-        <div class="text-center p-1">
+        <div class="author p-1">
           Made&nbsp;with&nbsp;<Icon name="grommet-icons:favorite"/>&nbsp;by&nbsp;<a class="text-white" href="https://github.com/Lomlomm">Nessa</a>
         </div>
       </div>
@@ -94,7 +94,7 @@
   margin: 10px 0;
 }
 
-.text-center {
+.author {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -108,7 +108,7 @@
     justify-content: space-between;
   }
 
-  .text-center {
+  .author {
     flex-direction: row;
     text-align: left;
   }

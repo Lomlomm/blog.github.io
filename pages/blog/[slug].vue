@@ -12,6 +12,7 @@
       <header>
         <div class="text-center p-5">
           <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mx-auto">{{ doc.title }}</h1>
+          <p class="text-gray-500 mt-2 desc">{{ doc.description }}</p>
         </div>
       </header>
 
