@@ -5,13 +5,12 @@
     MDBNavbarNav,
     MDBNavbarItem,
     MDBCollapse,
+    MDBIcon
   } from 'mdb-vue-ui-kit';
   import { ref, provide } from 'vue';
   import { useRoute } from 'vue-router';
 
   const collapse1 = ref(false);
-  // const search2 = ref('');
-  // provide('searchQuery', search2);
   const route = useRoute();
   const pageTitles: { [key: string]: string }  = {
     'index': 'Lomlomm\'s DevBlog.',
@@ -46,12 +45,16 @@
       <!-- Navbar -->
       <ClientOnly fallbackTag="div">
       <MDBNavbar expand="lg" light bg="white" container>
+
         <MDBNavbarToggler
-          target="#navbarExample01"
+          target="#navbarNav"
           @click="collapse1 = !collapse1"
-        ></MDBNavbarToggler>
-        <MDBCollapse id="#navbarExample01" v-model="collapse1">
-          <MDBNavbarNav class="mb-2 mb-lg-0">
+          togglerClass="toggler"
+          togglerSize="2x" 
+        >
+        </MDBNavbarToggler>
+        <MDBCollapse id="navbarNav" v-model="collapse1">
+          <MDBNavbarNav class="mb-2">
             <MDBNavbarItem to="/" active> Home </MDBNavbarItem>
             <MDBNavbarItem to="/tech"> Tech </MDBNavbarItem>
             <MDBNavbarItem to="/growing"> Growing </MDBNavbarItem>
@@ -60,8 +63,6 @@
         </MDBCollapse>
       </MDBNavbar>
       </ClientOnly>
-      <!-- Navbar -->
-      <!-- Jumbotron -->
       <div v-if="currentTitle !== ''" class="title p-5 text-center bg-light">
         <h1 class="mb-3">{{ currentTitle }}</h1>
         <h4 class="mb-3">{{ currentDescription }}</h4>
@@ -77,18 +78,10 @@
     h4{
         font-family: 'Marvel', sans-serif;
     }
-    .search{
-        margin-right: 10px;
+    .navbar-toggler, .toggler{
+      color: black;
     }
-    .search-button{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: none;
-      border-color: rgba(209, 138, 177, 0.288);
-      background-color: rgba(209, 138, 177, 0.479);
-      border-radius: 5px;
-      width: 50px;
-      color: white;
+    .fas{
+      color: black;
     }
 </style>
