@@ -1,0 +1,1 @@
+import{_ as e}from"./0N0M7DAK.js";import{f as t,o as r,c as n,b as a}from"./COISiXr7.js";import"./B8qW4fpV.js";import"./Cahho5uv.js";import"./DSw8F9y2.js";const d=t({__name:"growing",setup(p){return(c,m)=>{const o=e;return r(),n("div",null,[a(o)])}}});export{d as default};
